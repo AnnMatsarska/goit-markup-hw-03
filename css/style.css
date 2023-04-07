@@ -172,7 +172,6 @@ img {
 
 .hero {
   background: var(--secondary-navy-blue);
-  margin-bottom: 120px;
 }
 
 .hero-title {
@@ -211,7 +210,7 @@ img {
 
 /* feature section */
 .feature {
-  margin-bottom: 120px;
+  padding-top: 120px;
 }
 .feature-item {
 }
@@ -222,6 +221,7 @@ img {
 }
 /* Competences section */
 .compet-section {
+  padding-top: 120px;
   margin-bottom: 120px;
 }
 .compet-flex {
