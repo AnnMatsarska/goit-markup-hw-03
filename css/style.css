@@ -273,6 +273,7 @@ img {
 }
 .team-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-item {
   background-color: var(--background-white);
