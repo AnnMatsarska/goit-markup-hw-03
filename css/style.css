@@ -28,6 +28,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid red;
 }
 /* reset */
 h1,
@@ -209,9 +210,11 @@ img {
 }
 
 /* feature section */
+
 .feature {
   padding-top: 120px;
 }
+
 .feature-item {
 }
 .feature-flex {
@@ -219,11 +222,25 @@ img {
   align-items: center;
   gap: 24px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Competences section */
 .compet-section {
   padding-top: 120px;
   margin-bottom: 120px;
 }
+
 .compet-flex {
   display: flex;
   align-items: center;
@@ -240,6 +257,7 @@ img {
 .team-section {
   padding-top: 120px;
   padding-bottom: 120px;
+
   background: var(--light-background-cloud);
 }
 
@@ -287,6 +305,7 @@ img {
 
 /*service section*/
 .serv-section {
+  padding-top: 120px;
 }
 
 .btn {
@@ -298,6 +317,9 @@ img {
   color: var(--primary-iris);
   background: var(--light-background-cloud);
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .btn:hover,
@@ -312,4 +334,20 @@ img {
 .serv-title {
 }
 .serv-text {
+}
+
+.serv-flex {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 72px;
+  justify-content: center;
+}
+
+.list-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 48px;
 }
