@@ -268,7 +268,12 @@ img {
 
   background: var(--light-background-cloud);
 }
-
+.team-title-item {
+  text-align: center;
+}
+.team-text {
+  text-align: center;
+}
 .team-item {
   background-color: var(--background-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -289,6 +294,7 @@ img {
   align-items: center;
   padding: 32px 16px;
   gap: 8px;
+  border-radius: 0px 0px 4px 4px;
 }
 /* footer section */
 .footer {
