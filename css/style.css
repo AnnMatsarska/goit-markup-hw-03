@@ -219,10 +219,11 @@ img {
 /* feature section */
 
 .feature {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .feature-item {
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .feature-flex {
   display: flex;
