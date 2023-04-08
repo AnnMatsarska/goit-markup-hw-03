@@ -245,7 +245,6 @@ img {
 }
 /* Competences section */
 .compet-section {
-  padding-top: 120px;
   margin-bottom: 120px;
 }
 
@@ -257,7 +256,8 @@ img {
 .compet-item {
   border: 1px solid #e7e9fc;
 }
-.compete-link {
+.compet-list {
+  flex-basis: calc((100%-2 * var(--indent)) / 3);
 }
 
 /* Team section */
