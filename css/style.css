@@ -257,7 +257,7 @@ img {
   border: 1px solid #e7e9fc;
 }
 .compet-list {
-  flex-basis: calc((100%-2 * var(--indent)) / 3);
+  flex-basis: calc((100%-48px) / 3);
 }
 
 /* Team section */
