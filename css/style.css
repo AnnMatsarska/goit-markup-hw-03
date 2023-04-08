@@ -11,6 +11,8 @@
   --modal-background-dairy: #fcfcfc;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --items: 9;
+  --indent: 24px;
 }
 
 body {
@@ -28,7 +30,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 /* reset */
 h1,
@@ -220,7 +221,7 @@ img {
 .feature-flex {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: var(--indent);
 }
 .visually-hidden {
   position: absolute;
@@ -244,7 +245,7 @@ img {
 .compet-flex {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: var(--indent);
 }
 .compet-item {
   border: 1px solid #e7e9fc;
@@ -272,7 +273,7 @@ img {
 .team-flex {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: var(--indent);
 }
 .team-position {
   display: flex;
@@ -305,7 +306,8 @@ img {
 
 /*service section*/
 .serv-section {
-  padding-top: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .btn {
@@ -331,23 +333,26 @@ img {
 .serv-link {
   text-decoration: none;
 }
-.serv-title {
+.serv-item {
+  border: 1px solid #e7e9fc;
 }
 .serv-text {
+  text-align: left;
+  padding: 32px 16px;
 }
-
 .serv-flex {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  align-items: flex-start;
+  gap: var(--indent);
   padding-bottom: 72px;
   justify-content: center;
 }
-
+.serv-flex-items {
+  --items: 9;
+}
 .list-flex {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 48px;
+  justify-content: center;
 }
