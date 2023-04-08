@@ -59,9 +59,11 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: 332px;
 }
 .header-nav {
-  margin-right: 332px;
+  display: flex;
+  align-items: center;
 }
 .header-container {
   display: flex;
