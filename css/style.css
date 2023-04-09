@@ -99,7 +99,6 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--ocean);
-  text-decoration: underline;
 }
 
 .header-item {
@@ -316,7 +315,7 @@ img {
 .footer-size {
   display: inline-block;
   margin-bottom: 16px;
-  padding-top: 0px;
+  padding: 0px;
 }
 
 /*service section*/
@@ -337,7 +336,6 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  text-decoration: none;
 }
 
 .btn:hover,
@@ -358,7 +356,6 @@ img {
   text-align: left;
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
-  border-top: none;
 }
 .serv-flex {
   display: flex;
